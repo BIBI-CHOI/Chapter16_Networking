@@ -26,6 +26,7 @@ public abstract class TcpApplication {
 		// 설정데이터로부터 필요한 항목을 추출
 		Properties settings = new Properties();
 		
+		
 		try {
 			settings.load(new FileInputStream(CONFIG));
 			
